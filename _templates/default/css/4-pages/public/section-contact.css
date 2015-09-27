@@ -1,0 +1,113 @@
+.section-contact{
+	background-color: #e36b67;
+	/*z-index: 999;*/
+	/*margin-top: 0vh;*/
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	z-index: 0;
+}
+
+.section-contact > .text-content{
+	width: 60%;
+	height: 70vh;
+	overflow: hidden;
+}
+
+.section-contact > /*.hero-container >*/ .group-title{
+	top: 0;
+	top: 3rem;
+}
+
+.contact-form{
+	background: url('../../../img/contact-form-background.png');
+	background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    max-width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	top: 10%;
+  	-webkit-transform: translateY(10%);
+  	-ms-transform: translateY(10%);
+  	transform: translateY(10%);
+}
+
+.contact-form > .input-container{
+	/*margin-top: 10%;*/
+}
+
+.contact-form > .input-container > input{
+	width: 90%;
+	margin-bottom: 1.5%;
+}
+
+.section-contact > .arrow-down{
+	position: absolute;
+	bottom: 0;
+}
+
+/*@media only screen and (max-width: 1285px) {
+  .input-container{
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .input-container{
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .input-container{
+    margin-top: 15%;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .input-container{
+    margin-top: 20%;
+  }
+
+  .section-contact > .text-content{
+	width: 70%;
+	height: 80%;
+}
+}
+
+@media only screen and (max-width: 770px) {
+  .input-container{
+    margin-top: 25%;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .input-container{
+    margin-top: 30%;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .input-container{
+    margin-top: 35%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .input-container{
+    margin-top: 40%;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .input-container{
+    margin-top: 45%;
+  }
+}
+
+@media only screen and (max-width: 270px) {
+  .input-container{
+    margin-top: 50%;
+  }
+}*/

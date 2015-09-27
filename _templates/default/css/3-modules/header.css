@@ -7,10 +7,11 @@ header{
 	display: inline-block;
 	position: fixed;
 	z-index: 999;
+	margin-top: -100vh;
 }
 
 nav{
-	font-size: 3em;
+	font-size: 3rem;
 	color: #fff;
 	vertical-align: text-center;
 	margin-top: 0.25em;

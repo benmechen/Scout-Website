@@ -2,7 +2,7 @@
 	<a class="logo" href=""></a>
 	<nav>
 		<ul>
-			<li><a href="">Home</a></li> | 
+			<li><a href="#about">Home</a></li> | 
 			<li><a href="#beavers">Beavers</a></li> | 
 			<li><a href="#cubs">Cubs</a></li> | 
 			<li><a href="#scouts">Scouts</a></li> | 
