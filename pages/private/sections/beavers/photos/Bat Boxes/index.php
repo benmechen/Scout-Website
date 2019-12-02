@@ -1,0 +1,1 @@
+<?php $dir = basename(__DIR__); include "../photos-folder-base.php";

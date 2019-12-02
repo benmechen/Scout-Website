@@ -18,9 +18,16 @@
 			Welcome to the 1st Lytchett Matravers Scout Group's website. The ages for our groups are: Beavers 6-8, Cubs 8-10½, Scouts 10½-14, and <br> Explorers 14-18.
 		
 		<br>
-		<span class="text-newsflash">
-			<b>NEWS:</b> Cubs new start time will be 6:15pm due to the Leader's working commitments. Apologies for any inconvenience.
-		</span>
+		 <? $newsData = $news->pull(); 
+			foreach ($newsData as $data) { ?>
+				<span class="text-newsflash">
+					<b>NEWS:</b> <?= $data['comment'] ?>
+				</span>
+				<br><i>Posted by <?= $data['group_name'] ?> on <?= $data['date'] ?>.</i>
+			<?
+			}
+			?> 
+		
 
 		</p>
 
@@ -28,10 +35,11 @@
 			Log into leader’s/parent’s area:
 		</p>
 
-		<form autocomplete="off">
-			<input type="text" autocomplete="off" placeholder="Username"><br>
-			<input type="password" autocomplete="off" placeholder="Password"><br>
-			<input type="submit" value="Login">
+		<form autocomplete="off" method="POST" action="">
+			<span class="loginMessage" style="color: #800000;"><?=$loginMessage?></span>
+			<input type="text" name="username" autocomplete="off" placeholder="Username"><br>
+			<input type="password" name="password" autocomplete="off" placeholder="Password"><br>
+			<input type="submit" name="auth-submit" value="Login">
 		</form>
 
 		<a class="arrow-down" href="#beavers"><h1>v</h1></a>
